@@ -25,7 +25,7 @@ class BackupResource(SyncAPIResource):
         This property can be used as a prefix for any HTTP method call to return the
         the raw response object instead of the parsed content.
 
-        For more information, see https://www.github.com/stainless-sdks/fireapi-v2-python#accessing-raw-response-data-eg-headers
+        For more information, see https://www.github.com/EvickaStudio/fireapi-v2#accessing-raw-response-data-eg-headers
         """
         return BackupResourceWithRawResponse(self)
 
@@ -34,7 +34,7 @@ class BackupResource(SyncAPIResource):
         """
         An alternative to `.with_raw_response` that doesn't eagerly read the response body.
 
-        For more information, see https://www.github.com/stainless-sdks/fireapi-v2-python#with_streaming_response
+        For more information, see https://www.github.com/EvickaStudio/fireapi-v2#with_streaming_response
         """
         return BackupResourceWithStreamingResponse(self)
 
@@ -79,7 +79,7 @@ class AsyncBackupResource(AsyncAPIResource):
         This property can be used as a prefix for any HTTP method call to return the
         the raw response object instead of the parsed content.
 
-        For more information, see https://www.github.com/stainless-sdks/fireapi-v2-python#accessing-raw-response-data-eg-headers
+        For more information, see https://www.github.com/EvickaStudio/fireapi-v2#accessing-raw-response-data-eg-headers
         """
         return AsyncBackupResourceWithRawResponse(self)
 
@@ -88,7 +88,7 @@ class AsyncBackupResource(AsyncAPIResource):
         """
         An alternative to `.with_raw_response` that doesn't eagerly read the response body.
 
-        For more information, see https://www.github.com/stainless-sdks/fireapi-v2-python#with_streaming_response
+        For more information, see https://www.github.com/EvickaStudio/fireapi-v2#with_streaming_response
         """
         return AsyncBackupResourceWithStreamingResponse(self)
 
