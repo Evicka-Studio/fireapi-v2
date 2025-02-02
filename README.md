@@ -15,8 +15,8 @@ The REST API documentation can be found on [apidocs.24fire.de](https://apidocs.2
 ## Installation
 
 ```sh
-# install from this staging repo
-pip install git+https://github.com/Evicka-Studio/fireapi-v2.git
+# install from the production repo
+pip install git+ssh://git@github.com/EvickaStudio/fireapi-v2.git
 ```
 
 > [!NOTE]
@@ -210,9 +210,9 @@ account = response.parse()  # get the object that `accounts.retrieve()` would ha
 print(account.data)
 ```
 
-These methods return an [`APIResponse`](https://github.com/stainless-sdks/fireapi-v2-python/tree/main/src/fireapi_v2/_response.py) object.
+These methods return an [`APIResponse`](https://github.com/EvickaStudio/fireapi-v2/tree/main/src/fireapi_v2/_response.py) object.
 
-The async client returns an [`AsyncAPIResponse`](https://github.com/stainless-sdks/fireapi-v2-python/tree/main/src/fireapi_v2/_response.py) with the same structure, the only difference being `await`able methods for reading the response content.
+The async client returns an [`AsyncAPIResponse`](https://github.com/EvickaStudio/fireapi-v2/tree/main/src/fireapi_v2/_response.py) with the same structure, the only difference being `await`able methods for reading the response content.
 
 #### `.with_streaming_response`
 
@@ -316,7 +316,7 @@ This package generally follows [SemVer](https://semver.org/spec/v2.0.0.html) con
 
 We take backwards-compatibility seriously and work hard to ensure you can rely on a smooth upgrade experience.
 
-We are keen for your feedback; please open an [issue](https://www.github.com/stainless-sdks/fireapi-v2-python/issues) with questions, bugs, or suggestions.
+We are keen for your feedback; please open an [issue](https://www.github.com/EvickaStudio/fireapi-v2/issues) with questions, bugs, or suggestions.
 
 ### Determining the installed version
 
