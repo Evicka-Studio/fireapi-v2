@@ -20,7 +20,7 @@ or products provided by Fireapi V2 please follow the respective company's securi
 
 ### Fireapi V2 Terms and Policies
 
-Please contact dev-feedback@fireapi-v2.com for any questions or concerns regarding security of our services.
+Please contact <hello@evicka.de> for any questions or concerns regarding security of our services.
 
 ---
 
