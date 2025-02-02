@@ -1,16 +1,100 @@
+################################################
+# Project Specific                              #
+################################################
+testFireAPIV2.py
 .prism.log
-.vscode
 _dev
-
-__pycache__
-.mypy_cache
-
-dist
-
-.venv
-.idea
-
-.env
-.envrc
 codegen.log
 Brewfile.lock.json
+
+################################################
+# Python                                        #
+################################################
+# Byte-compiled / optimized files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+*.egg
+MANIFEST
+wheels/
+.eggs/
+
+# Unit test / coverage
+.coverage
+.coverage.*
+htmlcov/
+.pytest_cache/
+.tox/
+.nox/
+coverage.xml
+.hypothesis/
+
+# Virtual Environments
+.venv/
+venv/
+ENV/
+
+################################################
+# Development Tools                             #
+################################################
+# VS Code
+.vscode/
+
+# PyCharm / JetBrains
+.idea/
+
+# Environment files
+.env
+.envrc
+
+# Type checking
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+.pytype/
+.ruff_cache/
+
+# Package managers
+.pdm.toml
+.pdm-python
+.pdm-build/
+__pypackages__/
+
+################################################
+# Documentation                                 #
+################################################
+docs/_build/
+
+################################################
+# Logs and Databases                           #
+################################################
+*.log
+pip-log.txt
+db.sqlite3
+db.sqlite3-journal
+
+################################################
+# Misc                                         #
+################################################
+# C extensions
+*.so
+
+# Translations
+*.mo
+*.pot
+
+# PyPI
+.pypirc
+
+# Jupyter
+.ipynb_checkpoints
+ipython_config.py
+
+# Cython
+cython_debug/
