@@ -10,19 +10,23 @@ It is generated with [Stainless](https://www.stainlessapi.com/).
 
 ## Documentation
 
-The REST API documentation can be found on [docs.fireapi-v2.com](https://docs.fireapi-v2.com). The full API of this library can be found in [api.md](api.md).
+The REST API documentation can be found on [apidocs.24fire.de](https://apidocs.24fire.de/v2). The full API of this library can be found in [api.md](api.md).
 
 ## Installation
 
 ```sh
 # install from this staging repo
-pip install git+ssh://git@github.com/stainless-sdks/fireapi-v2-python.git
+pip install git+https://github.com/Evicka-Studio/fireapi-v2.git
 ```
 
 > [!NOTE]
 > Once this package is [published to PyPI](https://app.stainlessapi.com/docs/guides/publish), this will become: `pip install --pre fireapi_v2`
 
 ## Usage
+
+First get an global API key from the [Fireapi Contol Panel](https://cp.24fire.de/account/einstellungen/apikeys). As v1 API keys wont work for the v2 API (eg. the API keys that are generated for an specific KVM).
+
+When using an deprecated API key, you will get an `AuthenticationError`: `Authorization failed. The API key is missing, invalid...`
 
 The full API of this library can be found in [api.md](api.md).
 
@@ -174,7 +178,7 @@ We use the standard library [`logging`](https://docs.python.org/3/library/loggin
 You can enable logging by setting the environment variable `FIREAPI_V2_LOG` to `info`.
 
 ```shell
-$ export FIREAPI_V2_LOG=info
+export FIREAPI_V2_LOG=info
 ```
 
 Or to `debug` for more verbose logging.
